@@ -82,14 +82,6 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 780px) {
-    .kv:hover {
-        background-image: url(../img/image0\ \(4\).jpg);
-        transition: 1.0s;
-        width: 100%;
-    }
-
-}
 
 .title-wrap {
     display: flex;
@@ -175,12 +167,22 @@ h2 {
 }
 
 @media screen and (max-width: 780px) {
+    .aboutsub {
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 780px) {
     .about img {
         width: 70%;
-        margin-left: 0;   
-    text-align: center;
+        margin-left: 0;
+        text-align: center;
     }
 }
+
 .dotline {
     flex: 1;
     margin: 0 10px;
@@ -257,7 +259,7 @@ a:link {
 @media screen and (max-width: 780px) {
     .dairi {
         text-align: center;
-      
+
     }
 }
 

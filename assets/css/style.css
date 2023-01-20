@@ -26,7 +26,7 @@ body {
 .header-right li {
     margin-left: 20px;
     margin-top: 10px;
-    color: plum;
+    color: rgb(208, 116, 188);
 }
 
 /*タイトル*/
@@ -86,9 +86,11 @@ body {
     .kv:hover {
         background-image: url(../img/image0\ \(4\).jpg);
         transition: 1.0s;
+        width: 100%;
     }
 
 }
+
 .title-wrap {
     display: flex;
     flex-direction: column;
@@ -239,13 +241,7 @@ h2 {
     text-align: center;
 }
 
-@media screen and (max-width: 780px) {
-    section41 li {
-        width: 100%;
-        height: auto;
-        aspect-ratio: 16 / 9;
-    }
-}
+
 
 a:link {
     color: #000000
@@ -254,6 +250,15 @@ a:link {
 @media screen and (max-width: 780px) {
     .dairi {
         text-align: center;
+      
+    }
+}
+
+@media screen and (max-width: 780px) {
+    iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
     }
 }
 

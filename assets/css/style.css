@@ -75,13 +75,20 @@ body {
 
 .kv:hover {
     background-image: url(../img/image3.jpeg);
-    transition: 0.8s;
+    transition: 1.0s;
 }
 
 .kv:hover .text {
     display: none;
 }
 
+@media screen and (max-width: 780px) {
+    .kv:hover {
+        background-image: url(../img/image0\ \(4\).jpg);
+        transition: 1.0s;
+    }
+
+}
 .title-wrap {
     display: flex;
     flex-direction: column;
@@ -236,7 +243,7 @@ h2 {
     section41 li {
         width: 100%;
         height: auto;
-        aspect-ratio: 16/9;
+        aspect-ratio: 16 / 9;
     }
 }
 
@@ -245,8 +252,8 @@ a:link {
 }
 
 @media screen and (max-width: 780px) {
-    #section41 {
-        width: 70%;
+    .dairi {
+        text-align: center;
     }
 }
 

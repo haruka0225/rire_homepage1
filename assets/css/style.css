@@ -38,6 +38,7 @@ body {
     background-size: cover;
     background-image: url(../img/flower1.jpg);
     position: relative;
+   
 }
 
 
@@ -77,14 +78,8 @@ body {
     background-image: url(../img/image3.jpeg);
     transition: 1.0s;
 
-    @media screen and (max-width: 780px) {
-        img {
-            background-image: url(../img/image4.jpeg);
-            transition: 1.0s;
-            width: 100%;
-        }
     }
-}
+
 
     .kv:hover .text {
         display: none;

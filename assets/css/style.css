@@ -16,11 +16,15 @@ body {
     justify-content: flex-end;
     font-size: 12px;
     font-weight: bold;
+
+}
+
+.header-right ul a {
+    text-align: center;
 }
 
 .header img {
     width: 70%;
-
 }
 
 .header-right li {
@@ -40,11 +44,16 @@ body {
     position: relative;
 }
 
-    @media screen and (max-width: 780px) {
-        .kv img {
-            width: 100%;
-        }
+@media screen and (min-width: 780px) {
+    .kv:hover {
+        background-image: url(../img/logo3.jpg);
+        transition: 1.5s;
+        width: 100%;
+        margin-left: 0;
     }
+
+
+}
 
 
 
@@ -79,22 +88,6 @@ body {
     }
 
 }
-
-.kv:hover {
-    background-image: url(../img/image3.jpeg);
-    transition: 1.0s;
-}
-    
-    @media screen and (max-width: 780px) {
-        .kv:hover  {
-            background-image: url(../img/image4.jpeg);
-            width: 50%;
-            text-align: center;
-        }
-    }
-    
-
-
 
 .kv:hover .text {
     display: none;
@@ -142,7 +135,6 @@ h2 {
     justify-content: center;
     max-width: 1040px;
     margin: 0 auto;
-
 }
 
 @media screen and (max-width: 780px) {
@@ -171,10 +163,23 @@ h2 {
 
 }
 
+@media screen and (max-width: 780px) {
+    .dairi {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
 .dairi li {
     text-align: center;
     font-size: 20px;
 
+}
+
+@media screen and (max-width: 780px) {
+    .dairi li {
+        font-size: 15px;
+    }
 }
 
 
@@ -194,14 +199,18 @@ h2 {
     font-weight: 500;
     font-size: 20px;
 }
+    .dairi a:hover{
+        background: rgb(244, 202, 244);  
+    }
 
-.aboutsub {
+
+.about sub {
     width: 409px;
     margin-left: 50px;
 }
 
 @media screen and (max-width: 780px) {
-    .aboutsub {
+    .about sub {
         width: 100%;
         margin-left: 0;
     }
@@ -244,6 +253,7 @@ h2 {
     .box1 {
         display: block;
         text-align: center;
+
     }
 }
 
@@ -257,6 +267,7 @@ h2 {
     .box2 {
         display: block;
         text-align: center;
+
     }
 }
 
@@ -267,11 +278,26 @@ h2 {
 
 }
 
+@media screen and (max-width: 780px) {
+    .box1 img {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
 .box2 img {
     width: 35%;
     border-radius: 6%;
     margin-right: 20px;
 
+}
+
+@media screen and (max-width: 780px) {
+    .box2 img {
+        width: 70%;
+        margin: 0 auto;
+
+    }
 }
 
 .naiyou p {
@@ -280,13 +306,18 @@ h2 {
     margin: 50px;
 }
 
+@media screen and (max-width: 780px) {
+    .naiyou p {
+        font-size: 15px;
+    }
+}
+
 .menuitem {
     text-align: center;
 }
 
 @media screen and (max-width: 780px) {
     ul {
-       
         padding: 10px;
     }
 }
@@ -304,7 +335,6 @@ a:link {
 }
 
 
-
 @media screen and (max-width: 780px) {
     iframe {
         width: 100%;
@@ -314,10 +344,11 @@ a:link {
 }
 
 @media screen and (max-width: 780px) {
-  a.aa {
-      font-size: 15px;
+    a.aa {
+        font-size: 15px;
     }
 }
+
 
 
 
@@ -330,9 +361,10 @@ a:link {
     max-width: 720px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
     .Form {
         margin-top: 40px;
+        padding: 10px;
     }
 }
 
@@ -344,7 +376,7 @@ a:link {
     justify-content: space-around;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
     .Form-Item {
         padding-left: 14px;
         padding-right: 14px;
@@ -366,7 +398,7 @@ a:link {
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
     .Form-Item-Label {
         max-width: inherit;
         display: flex;
@@ -380,7 +412,7 @@ a:link {
     margin-bottom: auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
     .Form-Item-Label.isMsg {
         margin-top: 0;
     }
@@ -400,7 +432,7 @@ a:link {
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
     .Form-Item-Label-Required {
         border-radius: 4px;
         padding-top: 4px;
@@ -426,7 +458,7 @@ a:link {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
     .Form-Item-Input {
         margin-left: 0;
         margin-top: 18px;
@@ -450,7 +482,7 @@ a:link {
     font-size: 18px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
     .Form-Item-Textarea {
         margin-top: 18px;
         margin-left: 0;
@@ -487,7 +519,7 @@ a:link {
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
     .Form-Btn {
         margin-top: 24px;
         padding-top: 8px;
@@ -497,6 +529,13 @@ a:link {
     }
 }
 
+/* topもどる */
+.top{
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* フッター */
 footer {
     height: 50px;
     background-color: #eaedf2;

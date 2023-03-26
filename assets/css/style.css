@@ -38,16 +38,14 @@ body {
     background-size: cover;
     background-image: url(../img/flower1.jpg);
     position: relative;
-
+}
 
     @media screen and (max-width: 780px) {
-        img {
-            background-image: url(../img/image4.jpeg);
-            transition: 1.0s;
+        .kv img {
             width: 100%;
         }
     }
-}
+
 
 
 .text {
@@ -85,8 +83,17 @@ body {
 .kv:hover {
     background-image: url(../img/image3.jpeg);
     transition: 1.0s;
-
 }
+    
+    @media screen and (max-width: 780px) {
+        .kv:hover  {
+            background-image: url(../img/image4.jpeg);
+            width: 50%;
+            text-align: center;
+        }
+    }
+    
+
 
 
 .kv:hover .text {
@@ -126,7 +133,7 @@ h2 {
 
 @media screen and (max-width: 780px) {
     h2 {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
@@ -169,6 +176,8 @@ h2 {
     font-size: 20px;
 
 }
+
+
 
 .dairi a {
     background: #eaedf2;
@@ -275,6 +284,12 @@ h2 {
     text-align: center;
 }
 
+@media screen and (max-width: 780px) {
+    ul {
+       
+        padding: 10px;
+    }
+}
 
 
 a:link {
@@ -288,11 +303,19 @@ a:link {
     }
 }
 
+
+
 @media screen and (max-width: 780px) {
     iframe {
         width: 100%;
         height: auto;
         aspect-ratio: 16 / 9;
+    }
+}
+
+@media screen and (max-width: 780px) {
+  a.aa {
+      font-size: 15px;
     }
 }
 

@@ -175,7 +175,9 @@
 
             <section5>
                 <h2 id="section-05">--お問い合わせ・予約--</h2>
-
+                
+                <form action="check.php", method="POST">
+                    
                 <div class="Form">
                     <div class="Form-Item">
                         <p class="Form-Item-Label"><span class="Form-Item-Label-Required">☆</span>name</p>
@@ -195,6 +197,8 @@
                     </div>
                     <input type="submit" class="Form-Btn" value="submit">
                 </div>
+                </form>
+                
             </section5>
 
 

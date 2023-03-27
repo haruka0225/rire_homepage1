@@ -200,9 +200,10 @@ h2 {
     font-weight: 500;
     font-size: 20px;
 }
-    .dairi a:hover{
-        background: rgb(244, 202, 244);  
-    }
+
+.dairi a:hover {
+    background: rgb(244, 202, 244);
+}
 
 
 .about sub {
@@ -531,11 +532,20 @@ a:link {
 }
 
 /* topもどる */
-.top{
+.top {
     padding: 50px 30px 0 30px;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
+
+
+@media screen and (max-width: 780px) {
+    .top {
+        font-size: 10px;
+    }
+}
+
 
 
 /* フッター */
